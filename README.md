@@ -5,7 +5,7 @@ Install dependencies such as OpenCV, numpy etc.
 
 Place all bead images in same directory.
 
-Run RoyMultiImageRGB.py in terminal from same directory as image files for all-carbon library:
+Run RoyMultiImageRGB.py in terminal from same directory as image files for all-carbon library. Green regions are successfully detected bead centers, red regions are overlapping bead regions ignored by the software:
 
 ![alt text](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/Screen%20Shot%202017-05-30%20at%2011.20.03%20AM.png)
 
