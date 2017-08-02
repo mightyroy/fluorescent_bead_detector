@@ -15,11 +15,17 @@ Output is a .csv file containing RGB values averaged from 15x15 pixel grid of ce
 For Wang Xu's two-photon library, run WangMultiImageRGBreadonly.py 
 
 ![alt text](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/Screen%20Shot%202017-07-05%20at%201.52.37%20PM.png)
+
 ![alt text](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/Screen%20Shot%202017-07-05%20at%201.56.40%20PM.png)
 
 Run sRGBCIEplot.png to convert csv values into a CIE plot:
 
 ![alt text](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/sRGBCIEplot.png)
+
+For bead color change studies, put before and after images in same folder, Run pickbeadcsv.py to spatially align both images and compare bead RGB values among beads. Delta RGB values of each bead are stored in the generated csv file. Green boxes represent labelled bead centers, red boxes are ignored spurious regions:
+
+![](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/beadoverlap.png)
+
 
 Enjoy! 
 
