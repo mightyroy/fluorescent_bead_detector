@@ -22,7 +22,7 @@ Run sRGBCIEplot.png to convert csv values into a CIE plot:
 
 ![alt text](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/sRGBCIEplot.png)
 
-For bead color change studies, put before and after images in same folder, Run pickbeadcsv.py to spatially align both images and compare bead RGB values among beads. Delta RGB values of each bead are stored in the generated csv file. Green boxes are bead centers from current image, and red boxes are images from previous compared image:
+For bead color change studies, put before and after images in same folder, Run pickbeadcsv.py to spatially align both images and compare bead RGB values among beads. Delta RGB values of each bead are stored in the generated csv file. Green boxes are bead centers from first image, and red boxes are bead centers from second aligned image:
 
 ![](https://github.com/mightyroy/fluorescent_bead_detector/blob/master/beadoverlap.png)
 
